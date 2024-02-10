@@ -1,0 +1,71 @@
+.landing-container {
+    display: flex;
+    justify-content: center;
+}
+
+.landing {
+    width: 80vw;
+    display: grid;
+    min-height: 84vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: 150px 150px 20vw 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.landing h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: yellow;
+    grid-area: 1 / span 2 / span 2 / span 3;
+    align-self: center;
+}
+
+.landing img {
+    grid-area: 2 / 1 / span 3 / 2;
+    align-self: center;
+}
+
+
+.description-container {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 1 / 4 / span 3 / 4;
+}
+
+.description-container p {
+    text-align: right;
+    color: yellow;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.arrow {
+    filter: brightness(0) saturate(100%) invert(93%) sepia(45%) saturate(4821%) hue-rotate(355deg) brightness(103%) contrast(103%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-me-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.about-me {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
