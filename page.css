@@ -41,7 +41,7 @@ aside {
 .appt-button-aside {
     display: flex;
     position: fixed;
-    right: -41px;
+    right: -45px;
     background-color: #597BE1;
     flex-direction: row;
     padding: 10px;
@@ -57,6 +57,25 @@ aside {
     font-style: normal;
 }
 
+.general-button {
+        padding: 10px;
+        color: white !important; 
+        font-style: normal;
+        border-radius: 20px;
+        background-color: #597BE1;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        transition: all .5s ease;
+}
+
+.general-button:hover {
+    background-color: violet;
+    transition: color violet;
+}
+
 nav {
     backdrop-filter: 20px;
     display: flex;
@@ -64,7 +83,6 @@ nav {
     font-weight: 800;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-style: normal;
     font-style: italic;
 }
 
@@ -119,4 +137,47 @@ body {
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+
+.active {
+    color: violet !important;
+    font-style: normal !important;
+}
+
+.active-button {
+    background-color: violet !important;
+}
+
+footer {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 1.05rem;
+    font-style: normal;
+    width: 100vw;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: #675EE0;
+}
+
+footer a {
+    color: yellow;
+}
+
+footer section:first-of-type {
+    display: flex;
+    align-items: flex-start;
+    width: 80vw;
+}
+
+.excl-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

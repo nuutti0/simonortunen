@@ -19,7 +19,7 @@
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    color: yellow;
+    color: white;
     grid-area: 1 / span 2 / span 2 / span 3;
     align-self: center;
 }
@@ -43,7 +43,7 @@
 
 .description-container p {
     text-align: right;
-    color: yellow;
+    color: white;
     padding: 20px;
     border-radius: 25px;
 }
@@ -53,19 +53,22 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-}
-
-.about-me-container {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 8vh;
+    animation-name: arrow;
+    opacity: 0;
+    animation: arrow ease-in-out 2s 2;
 }
 
 .about-me {
+    margin-top: 8vh;
     height: 100vh;
     width: 100vw;
     background-color: white;
+}
+
+@keyframes arrow {
+    0% {opacity: 0;}
+    25% {opacity: 50%;}
+    50% {opacity: 100%;}
+    75% {opacity: 50%;}
+    100% {opacity: 0%;}
 }

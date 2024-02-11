@@ -1,0 +1,69 @@
+body {
+    background-color: white;
+}
+
+main {
+    width: 100vw;
+    min-height: 92vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-containers {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+main section {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 5px;
+    flex-direction: column;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+    position: relative;
+}
+
+.varaa-aika {
+    position: relative;
+}
+
+main section h2 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    text-decoration: underline wavy #007e31;
+}
+
+main section img {
+    height: 80px;
+    width: min-content;
+}
+
+main section:first-of-type {
+    margin-right: 25px;
+}
+
+main section:first-of-type h2 {
+    text-decoration: underline #ef4622 wavy;
+}
+
+main section:last-of-type {
+    margin-left: 25px;
+}
+
+.general-button {
+    width: fit-content;
+    display: flex;
+    gap: 2px;
+}
