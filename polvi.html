@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="index.css">
         <link rel="stylesheet" type="text/css" href="page.css">
+        <link rel="stylesheet" type="text/css" href="oplo.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@100..900&family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">        <title>Simo Nortunen</title>
@@ -12,11 +12,11 @@
     <body>
         <div class="header-container">
         <header>
-            <div class="logo"><a href="#">Simo&nbsp;Nortunen</a></div>
+            <div class="logo"><a href="/">Simo&nbsp;Nortunen</a></div>
             <nav>
-                <a href="#" class="active">Koti</a>
+                <a href="/">Koti</a>
                 <a href="minusta.html">Minusta</a>
-                <a href="polvi.html">Polvi</a>
+                <a href="polvi.html" class="active">Polvi</a>
                 <a href="lonkka.html">Lonkka</a>
                 <a href="olkapää.html">Olkapää</a>
                 <a href="osteotomiat.html">Osteotomiat</a>
@@ -27,9 +27,9 @@
             <section class="burgernav">
                 <div class="off-screen">
                     <ul>
-                        <li><a href="#" class="active">Koti</a></li>
+                        <li><a href="/">Koti</a></li>
                         <li><a href="minusta.html">Minusta</a></li>
-                        <li><a href="polvi.html">Polvi</a></li>
+                        <li><a href="#" class="active">Polvi</a></li>
                         <li><a href="lonkka.html">Lonkka</a></li>
                         <li><a href="olkapää.html">Olkapää</a></li>
                         <li><a href="osteotomiat.html">Osteotomiat</a></li>
@@ -46,34 +46,35 @@
         </div>
         <div class="header-container-clone"></div>
         <div class="header-container-clone-2"></div>
+        <section class="content-container">
         <main>
-            <div class="landing-container">
-            <section class="landing">
-                <section class="description-container">
-                    <div>
-                    <h1>Monipuolista ortopediaa, nopeasti ja helposti</h1>
-                    <p>Hoidan olkanivelseudun ja alaraajan vammoja ja vaivoja sekä näiden jälkitiloja. Ydinosaamistani on olkapään, lonkan ja polven (tähystys)kirurginen hoito, reiden ja säären virheasentokirurgia. Hoidan paljon urheilutapaturmia.
-                        <br><br>Voit varata aikojani verkkoajanvarauksesta ja soittamalla asiakaspalveluun 010 414 00* (pvm/mpm). Mikäli olet asioinut kanssani 60 vuorokauden sisällä, voit myös jättää soittopyynnön OmaMehiläisen kautta.</p>
-                        <a href="varaa-aika.html" class="general-button">Varaa aika</a>            
-                    </div>
-                        <img src="assets/1CAEF174-6ADF-48D1-A101-FC5360A1CB1B_1_105_c.jpeg" width="100%">
-                </section>
-            </section>
-            </div>
-            <a href="#abt"><span class="material-symbols-outlined arrow">
-                keyboard_double_arrow_down
-                </span></a>
-            <section class="about-me" id="abt">
-
-            </section>
+            <section class="content-container">
+            <h1 id="polvivammat">Polvivammat</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut labore consectetur quibusdam temporibus in quia, neque tempore amet exercitationem harum delectus. Minima unde eaque totam quod, cupiditate voluptatem dignissimos obcaecati.</p>
+            <ul>
+            <li>
+            <h2 class="collapsible">Nivelsidevammat</h2>
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nobis qui quisquam nostrum ea dolorem omnis animi voluptatum eum minima, doloremque, laudantium quibusdam soluta. Doloribus aspernatur suscipit saepe eaque. Dolore?</p>
+            </li>
+            <li>
+            <h2 class="collapsible">Nivelkierukkavammat</h2>
+            <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates itaque minus tempora! Inventore, officia excepturi consectetur quis debitis adipisci nesciunt laborum illum amet error cumque saepe maiores eligendi. Commodi, consequuntur?</p>
+            </li>
+            <li>
+            <h2 class="collapsible">Polvilumpion sijoiltaanmenot</h2>
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quae nostrum quisquam, explicabo vitae quod quis, nemo aperiam suscipit esse laborum aspernatur. Dignissimos ab quas dolorum maiores sint doloremque tempore? </p>
+            </li>
+            </ul>
         </main>
+        </section>
+        </div>
         <footer>
         <section>
         <a href="/misc/sources.html">Kuvien ja kuvakkeiden lähteet</a>
         </section>
         <section class="excl-container">
         <p>Tämä verkkosivusto ('simonortunen.fi' sekä kaikki sen alaverkkotunnusten alaiset verkkosivustot) on tarkoitettu vain informatiiviseen käyttöön, eikä sivusto tarjoa lääketieteellistä neuvontaa tai ole lääkinnällinen laite. Sivuston sisältämää tietoa ei tule käyttää taudinmäärittämiseen tai terveysongelman hoitoon. Lääketieteellistä neuvontaa tarvitsevan tulisi konsultoida lääketieteen ammattilaista. Diagnoosin voi tehdä vain lääkäri tai hammaslääkäri (<a href="https://www.finlex.fi/fi/laki/ajantasa/1994/19940559">laki terveydenhuollon ammattihenkilöistä 559/1994</a>). Älä sivuuta lääketieteen ammattilaisen antamia ohjeita tai viivytä hoitoon hakeutimista tämän verkkosivuston tietojen perusteella. Jos terveytesi on välittömässä vaarassa, soita hätänumeroon 112 tai hakeudu päivystykseen. Potilas-lääkärisuhdetta ei muodostu tämän verkkosivuston käytöstä johtuen.</p><p>Tämä sivusto ei käytä evästeitä.</p>
-        <p>&copy; Northopedics Oy (2822785-6). Kaikki verkkosivuston sisältö on Northopedics Oy:n omaisuutta, ellei toisin ole mainittu.</p>
+        <p>&copy; Northopedics Oy (2822785-6). Kaikki verkkosivuston sisältö on Northopedics Oy:n omaisuutta, ellei toisin ole mainittu. Sivun kuvien ja kuvakkeiden lähteet on koottu erilliselle sivulle.</p>
         </section>
         </footer>
         <script src="page.js"></script>

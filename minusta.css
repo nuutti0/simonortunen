@@ -3,6 +3,7 @@ main {
     min-height: 92vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 main h4 {
@@ -24,7 +25,7 @@ main h3 {
 }
 
 main h2 {
-    font-family: "Roboto Slab", serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 500;
     font-size: 35px;
 }
@@ -41,7 +42,6 @@ main li + li {
 
 .about-me-full {
     width: 80vw;
-    margin-top: 50px;
 }
 
 

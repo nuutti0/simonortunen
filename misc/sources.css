@@ -3,26 +3,26 @@ main {
     min-height: 92vh;
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    align-items: center;
 }
 
 main section {
     width: 80vw;
 }
 
-section ul {
+main section ul {
     list-style-type: disc;
-    padding-top: 50px;
+    padding-top: 10px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-size: 18px;
 }
 
-section li::marker {
+main section li::marker {
     content: '> ';
 }
 
-li + li {
+main li + li {
     margin-top: 10px;
 }
 

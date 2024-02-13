@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="page.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="minusta.css">
+        <link rel="stylesheet" type="text/css" href="page.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@100..900&family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">        <title>Minusta - Simo Nortunen</title>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@100..900&family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">        <title>Simo Nortunen</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
     <body>
         <div class="header-container">
         <header>
-            <a href="/" class="logo">Simo&nbsp;Nortunen</a>
+            <div class="logo"><a href="/">Simo&nbsp;Nortunen</a></div>
             <nav>
                 <a href="/">Koti</a>
-                <a href="#" class="active">Minusta</a>
-                <a href="polvivammat.html">Polvivammat</a>
-                <a href="AAAAA.html">AAAAA</a>
+                <a href="minusta.html" class="active">Minusta</a>
+                <a href="polvi.html">Polvi</a>
+                <a href="lonkka.html">Lonkka</a>
+                <a href="olkapää.html">Olkapää</a>
+                <a href="osteotomiat.html">Osteotomiat</a>
                 <div class="appt-button-container">
                     <a class="appt-button" href="varaa-aika.html">Varaa&nbsp;aika</a>
                 </div>
             </nav>
+            <section class="burgernav">
+                <div class="off-screen">
+                    <ul>
+                        <li><a href="/">Koti</a></li>
+                        <li><a href="#" class="active">Minusta</a></li>
+                        <li><a href="polvi.html">Polvi</a></li>
+                        <li><a href="lonkka.html">Lonkka</a></li>
+                        <li><a href="olkapää.html">Olkapää</a></li>
+                        <li><a href="osteotomiat.html">Osteotomiat</a></li>
+                        <li><a id="hamburger-button" href="varaa-aika.html">Varaa&nbsp;aika</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>
         </header>
         </div>
         <div class="header-container-clone"></div>
-        <aside>
-                <a class="appt-button-aside">Varaa&nbsp;aika&nbsp;<span class="material-symbols-outlined">
-                    schedule
-                    </span></a>
-        </aside>
+        <div class="header-container-clone-2"></div>
         <main>
             <section class="about-me-full">
                 <div class="nimi">
@@ -81,5 +98,6 @@
         <p>&copy; Northopedics Oy (2822785-6). Kaikki verkkosivuston sisältö on Northopedics Oy:n omaisuutta, ellei toisin ole mainittu.</p>
         </section>
         </footer>
+        <script src="page.js"></script>
     </body>
 </html>

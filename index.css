@@ -1,34 +1,30 @@
 .landing-container {
     display: flex;
     justify-content: center;
+    background: #272727;
+    min-height: calc(100vh - 70px);
 }
 
 .landing {
     width: 80vw;
-    display: grid;
     min-height: 84vh;
-    flex-wrap: wrap;
+    gap: 15px;
+    display: flex;
     justify-content: center;
-    grid-template-columns: 150px 150px 20vw 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    flex-direction: column;
 }
 
 .landing h1 {
     font-size: 3rem;
     font-weight: 500;
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+    font-family: "Outfit", sans-serif;
     color: white;
-    grid-area: 1 / span 2 / span 2 / span 3;
-    align-self: center;
+    padding: 0 30px 15px 0;
 }
 
 .landing img {
-    grid-area: 2 / 1 / span 3 / 2;
-    align-self: center;
+    max-width: 500px;
 }
-
 
 .description-container {
     font-family: "Ubuntu", sans-serif;
@@ -38,24 +34,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-area: 1 / 4 / span 3 / 4;
+    text-align: right;
 }
+
 
 .description-container p {
     text-align: right;
     color: white;
-    padding: 20px;
-    border-radius: 25px;
+    padding: 0 30px 30px 0;
+}
+
+.description-container a {
+    margin: 0 30px 0 0;
 }
 
 .arrow {
-    filter: brightness(0) saturate(100%) invert(93%) sepia(45%) saturate(4821%) hue-rotate(355deg) brightness(103%) contrast(103%);
-    position: absolute;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(198deg) brightness(101%) contrast(105%);
     left: 50%;
     transform: translateX(-50%);
     animation-name: arrow;
+    position: absolute;
     opacity: 0;
-    animation: arrow ease-in-out 2s 2;
+    top: 92vh;
+    animation: arrow ease-in-out 5s infinite;
 }
 
 .about-me {
@@ -70,5 +71,5 @@
     25% {opacity: 50%;}
     50% {opacity: 100%;}
     75% {opacity: 50%;}
-    100% {opacity: 0%;}
+    100% {opacity: 0;}
 }

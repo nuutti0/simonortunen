@@ -1,0 +1,61 @@
+main {
+    height: min-content;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.content-container {
+    display: flex;
+    width: 80vw;
+    min-height: 92vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main h1, h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+main h1 {
+    font-size: 2rem;
+}
+
+main p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main li {
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+main li::marker {
+    content: '+ ';
+    font-size: 2em;
+  }
+
+.content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.collapsible:hover {
+    text-decoration: dotted underline;
+    cursor: pointer;
+}
+
+.act {
+    text-decoration: underline;
+}
+
+.act:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
