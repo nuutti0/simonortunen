@@ -80,7 +80,6 @@ main section h2 {
 
 main section img {
     height: 80px;
-    width: min-content;
 }
 
 main section:first-of-type {
@@ -113,6 +112,10 @@ main section:last-of-type {
         margin: 0 !important;
     }
 
+    main section img {
+        width: 100px;
+        height: auto;
+    }
 }
 
 
