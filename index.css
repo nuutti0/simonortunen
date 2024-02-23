@@ -1,105 +1,231 @@
-.landing-container {
+
+
+main {
+    width: 100vw;
+    min-height: calc(100vh - 90px);
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    background: #272727;
-    min-height: calc(100vh - 70px);
+    gap: 50px;
 }
 
-.landing {
-    width: 80vw;
-    min-height: 84vh;
-    gap: 15px;
+header {
     display: flex;
+    width: 100vw;
+    height: 90px;
+    align-items: center;
     justify-content: center;
+}
+
+.call-containers {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+.titlecard {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
 }
 
-.landing h1 {
-    font-size: 3rem;
-    font-weight: 500;
-    font-family: "Outfit", sans-serif;
-    color: white;
-    padding: 0 30px 15px 0;
+.titlecard article {
+    width: 80vw;
 }
 
-.landing img {
-    max-width: 500px;
+.titlecard h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
 }
 
-.description-container {
+.titlecard h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+
+main section {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 5px;
+    flex-direction: column;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-style: normal;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: right;
-}
-
-
-.description-container p {
-    text-align: right;
-    color: white;
-    padding: 0 30px 30px 0;
-}
-
-.description-container a {
-    margin: 0 30px 0 0;
-}
-
-.arrow {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(198deg) brightness(101%) contrast(105%);
-    left: 50%;
-    transform: translateX(-50%);
-    animation-name: arrow;
-    position: absolute;
-    opacity: 0;
-    top: 92vh;
-    animation: arrow ease-in-out 5s infinite;
-}
-
-.about-me {
-    margin-top: 8vh;
-    min-height: 90vh;
-    width: 100vw;
+    position: relative;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+    border-radius: 25px;
 }
 
-.about-me section {
+.varaa-aika {
+    position: relative;
+}
+
+main section h2 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    text-decoration: underline wavy #007e31;
+}
+
+main section img {
+    height: 80px;
+    width: min-content;
+}
+
+main section:first-of-type {
+    margin-right: 25px;
+}
+
+main section:first-of-type h2 {
+    text-decoration: underline #ef4622 wavy;
+}
+
+main section:last-of-type {
+    margin-left: 25px;
+}
+
+.general-button {
+    width: fit-content;
+    display: flex;
+    gap: 2px;
+}
+
+@media only screen and (max-width: 720px) {
+    .call-containers {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .call-containers section {
+        width: 90vw;
+        margin: 0 !important;
+    }
+
+}
+
+
+/* page.ccs v */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overscroll-behavior: none;
+    background: rgb(82,111,199);
+    background: radial-gradient(circle, rgba(82,111,199,1) 0%, rgba(39,39,39,1) 100%);
+}
+
+.active-button {
+    color: #597BE1 !important;
+    text-decoration: none !important;
+}
+.general-button {
+        padding: 10px;
+        color: white !important; 
+        font-style: normal;
+        border-radius: 20px;
+        background-color: #597BE1;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        transition: all .5s ease;
+}
+
+.general-button:hover {
+    background-color: #0000ff;
+    transition: background-color blue;
+}
+
+main {
+    width: 100vw;
+    z-index: 1;
+}
+
+body {
+    overflow-x: hidden;
+    overscroll-behavior: none;
+}
+
+.logo a {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.active {
+    color: white !important;
+    font-style: normal !important;
+    text-decoration: none !important;
+}
+
+.active-button {
+    background-color: #597BE1 !important;
+}
+
+footer {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 1.05rem;
+    font-style: normal;
+    width: 100vw;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    padding: 50px 0 50px 0;
+}
+
+footer a {
+    color: white;
+    background-color: #597BE1;
+    transition: all .5s ease;
+}
+
+footer a:hover {
+    transition: background-color blue;
+    background-color: blue;
+}
+
+footer section:first-of-type {
+    display: flex;
+    align-items: flex-start;
+    width: 80vw;
+}
+
+.excl-container {
     width: 80vw;
     display: flex;
     flex-direction: column;
-}
-
-.about-me a {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    text-decoration: none;
-    color: #597BE1;
-    transition: all .3s ease;
-}
-
-.about-me a:hover {
-    transition: color blue;
-    color: blue;
-}
-
-.about-me ul {
-    list-style-type: none;
-}
-
-@keyframes arrow {
-    0% {opacity: 0;}
-    25% {opacity: 50%;}
-    50% {opacity: 100%;}
-    75% {opacity: 50%;}
-    100% {opacity: 0;}
+    gap: 20px;
 }
