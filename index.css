@@ -19,14 +19,16 @@ header {
 }
 
 .call-containers {
-    width: 100vw;
+    width: 90vw;
     height: fit-content;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
+    display: grid;
+    align-items: stretch;
+    justify-content: stretch;
     min-height: 50vh;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
 }
+
 
 .titlecard {
     color: white;
@@ -52,7 +54,6 @@ header {
 }
 
 main section {
-    width: 40%;
     display: flex;
     justify-content: center;
     align-items: left;
@@ -83,16 +84,8 @@ main section img {
     width: min-content;
 }
 
-main section:first-of-type {
-    margin-right: 25px;
-}
-
 main section:first-of-type h2 {
     text-decoration: underline #ef4622 wavy;
-}
-
-main section:last-of-type {
-    margin-left: 25px;
 }
 
 .general-button {
@@ -103,9 +96,9 @@ main section:last-of-type {
 
 @media only screen and (max-width: 720px) {
     .call-containers {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 40px;
     }
 
     .call-containers section {
@@ -120,7 +113,6 @@ main section:last-of-type {
 }
 
 
-/* page.ccs v */
 * {
     padding: 0;
     margin: 0;
