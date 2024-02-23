@@ -38,6 +38,9 @@ main li::marker {
     font-size: 2em;
   }
 
+.act3::marker {
+    content: '- ' !important;
+}
 .content {
     padding: 0 18px;
     background-color: white;

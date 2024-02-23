@@ -20,3 +20,4 @@ hamMenu.addEventListener('click', () => {
     hamMenu.classList.toggle('act2');
     offScreenMenu.classList.toggle('act2');
 })
+
