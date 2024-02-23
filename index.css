@@ -80,6 +80,7 @@ main section h2 {
 
 main section img {
     height: 80px;
+    width: min-content;
 }
 
 main section:first-of-type {
