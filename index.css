@@ -8,6 +8,7 @@ main {
     align-items: center;
     justify-content: center;
     gap: 50px;
+    z-index: 1;
 }
 
 header {
@@ -43,17 +44,17 @@ header {
     width: 80vw;
 }
 
-.titlecard h1 {
+.titlecard h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 2rem;
 }
 
-.titlecard h2 {
+.titlecard h3 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
 }
 
-main section {
+.call-containers article {
     display: flex;
     justify-content: center;
     align-items: left;
@@ -73,18 +74,18 @@ main section {
     position: relative;
 }
 
-main section h2 {
+.call-containers article h2 {
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     text-decoration: underline wavy #007e31;
 }
 
-main section img {
+.call-containers article img {
     height: 80px;
     width: min-content;
 }
 
-main section:first-of-type h2 {
+.call-containers article:first-of-type h2 {
     text-decoration: underline #ef4622 wavy;
 }
 
@@ -101,12 +102,12 @@ main section:first-of-type h2 {
         align-items: center;
     }
 
-    .call-containers section {
+    .call-containers article {
         width: 90vw;
         margin: 0 !important;
     }
 
-    main section img {
+    .call-containers article img {
         width: 100px;
         height: auto;
     }
@@ -149,11 +150,6 @@ html {
     transition: background-color blue;
 }
 
-main {
-    width: 100vw;
-    z-index: 1;
-}
-
 body {
     overflow-x: hidden;
     overscroll-behavior: none;
@@ -162,7 +158,7 @@ body {
 .logo a {
   font-family: "Outfit", sans-serif;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.3rem;
   text-decoration: none;
   color: white;
   font-style: normal;
