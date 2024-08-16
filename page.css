@@ -66,7 +66,6 @@ nav {
     font-weight: 800;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-style: italic;
 }
 
 nav a {
@@ -128,8 +127,7 @@ body {
 }
 
 .active {
-    color: white !important;
-    font-style: normal !important;
+    color: #597BE1 !important;
     text-decoration: none !important;
 }
 
