@@ -39,6 +39,11 @@ footer {
 
 .esimerkkikuvat {
     padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
 }
 
 .esimerkkikuvat img {
@@ -48,10 +53,22 @@ footer {
 }
 
 .esimerkkitapaus-2 img, .esimerkkitapaus-3 img {
-    height: 300px;
+    height: 250px;
     padding-block: 20px;
 }
 
 .esimerkkitapaus-1 h3, .esimerkkitapaus-2 h3, .esimerkkitapaus-3 h3 {
     padding-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+    .esimerkkikuvat {
+        grid-template-columns: 1fr;
+    }
+
+    .esimerkkikuvat img {
+        width: 80svw;
+        height: inherit;
+        min-height: 180px;
+    }
 }
