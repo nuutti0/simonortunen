@@ -1,0 +1,57 @@
+main article {
+    display: flex;
+    flex-direction: column;
+    width: 80svw;
+    gap: 15px;
+}
+
+main article aside {
+    background-color: rgb(254, 254, 170);
+    padding: 20px;
+    position: relative;
+}
+
+.star {
+    position: absolute;
+    right: -3%;
+    margin-top: -60px;
+    font-size: 80px;
+    rotate: 30deg;
+    color: rgb(255, 255, 40);
+}
+
+main {
+    gap: 0px !important;
+}
+
+main {
+    padding-bottom: 60px;
+}
+
+footer {
+    padding-top: 60px;
+}
+
+.esimerkkitapaus-2 {
+    width: 80svw;
+    position: relative;
+}
+
+.esimerkkikuvat {
+    padding-top: 20px;
+}
+
+.esimerkkikuvat img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.esimerkkitapaus-2 img, .esimerkkitapaus-3 img {
+    height: 300px;
+    padding-block: 20px;
+}
+
+.esimerkkitapaus-1 h3, .esimerkkitapaus-2 h3, .esimerkkitapaus-3 h3 {
+    padding-bottom: 20px;
+}

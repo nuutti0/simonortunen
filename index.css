@@ -1,0 +1,54 @@
+.left, .right, .center {
+    width: 80svw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left p, .right p {
+    max-width: 60svw;
+}
+
+.left img {
+    width: 40svw;
+    height: 40svh;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 25px;
+}
+
+.right {
+    align-items: end;
+    text-align: right;
+    border-block: 2px solid var(--main-color);
+    padding-block: 40px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+.center .varaa-aika {
+    border: 2px solid var(--main-color);
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 25px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+    .left img {
+        width: 100%;
+    }
+
+    .left p, .right p {
+    max-width: 80svw;
+}
+}
