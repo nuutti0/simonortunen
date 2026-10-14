@@ -72,3 +72,15 @@ footer {
         min-height: 180px;
     }
 }
+
+article ul, article ol {
+    list-style-type: disc;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+article ul li, article ol li {
+    padding-block: 7px;
+}

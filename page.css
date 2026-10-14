@@ -67,7 +67,7 @@ h4 {font-size: 1.3rem;}
 h5 {font-size: 1.2rem;}
 h6 {font-size: 1.1rem;}
 
-a, p {
+a, p, li {
   font-family: "Bricolage Grotesque", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
