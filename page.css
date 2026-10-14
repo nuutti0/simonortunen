@@ -222,10 +222,10 @@ header nav a.btn-book:hover, .button:hover, .varaa-aika:hover {
 
 .hero {
     width: 90svw;
-    height: calc(100svh - 70px);
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 
 .hero img {
@@ -490,4 +490,10 @@ a {
     align-items: center;
     justify-content: center;
     height: 200px;
+}
+
+@media (orientation: landscape) {
+    main article {
+        padding-top: 25px;
+    }
 }
