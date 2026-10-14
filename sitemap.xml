@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://simonortunen.fi/</loc>
+       <lastmod>2026-10-14T13:48:51+00:00</lastmod>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://simonortunen.fi/ACL/</loc>
+       <lastmod>2026-10-14T13:48:51+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://simonortunen.fi/PCL/</loc>
+       <lastmod>2026-10-14T13:48:51+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://simonortunen.fi/polven-sivusidevammat/</loc>
+       <lastmod>2026-10-14T13:48:51+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://simonortunen.fi/polvilumpion-sijoiltaanmeno/</loc>
+       <lastmod>2026-10-14T13:48:51+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://simonortunen.fi/polven-etuosan-kipu/</loc>
+       <lastmod>2026-10-14T13:48:51+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://simonortunen.fi/reiden-ja-saaren-osteotomiat/</loc>
+       <lastmod>2026-10-14T13:48:51+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://simonortunen.fi/varaa-aika/</loc>
+       <lastmod>2026-10-14T13:48:51+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://simonortunen.fi/FAIS/</loc>
+       <lastmod>2026-10-14T13:48:51+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+</urlset>
